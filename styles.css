@@ -1,12 +1,14 @@
 *{font-size : 24px;}
 
-BODY{background : #1976D2;}
+#rcorners {
+  border-radius: 25px;
+  background: #FF5722;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+BODY{background : #03A9F4;}
 
 P{font-family : Verdana;
-  color : #414141;
-  background : #FF5722;
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;}
+  color : #414141;}
