@@ -1,8 +1,9 @@
 *{font-size : 24px;}
 
-#rcorners {border-radius: 25px;
+#box {border-radius: 25px;
   background: #FF5722;
-  padding: 20px;}
+  margin:10px;
+	padding:10px;}
 
 h1{color : #212121;
 text-align: center;
@@ -10,5 +11,5 @@ font-family: "Century Gothic";}
 
 BODY{background : #03A9F4;}
 
-P{font-family : Verdana;
+P{font-family : "Trebuchet MS";
   color : #414141;}
