@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Meghraj's Github Page!</title>
+	<title>&nbsp&nbsp Meghraj's Github Page!</title>
+	<link rel='icon' href='favicon.ico' type='image/x-icon'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="text/javascript">
+		var titleText = document.title;
+		function titleMarquee() {
+		titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+		document.title = titleText;
+ 		setTimeout("titleMarquee()", 150); }
+	</script>
 </head>
 <div class="w3-margin">
-<body bgcolor="#2196F3">
+<body bgcolor="#2196F3" onload="titleMarquee()">
 	<h1><u><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHello World!&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</center></u></h1>
 	<br><br><br>
 	<div class="w3-panel w3-orange w3-text-dark-gray w3-hover-deep-orange w3-round w3-margin">
