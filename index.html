@@ -5,45 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>MyWebsite</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
 </head>
 
 <body style="background: rgb(238,244,247);">
+    <div id="particles-js" style="width:100%; height: 100%; background-color:rgb(0,0,30,0);"><script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script></div>
     <nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean">
         <div class="container-fluid"><a class="navbar-brand" href="#">Megz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div data-bs-parallax-bg="true" style="height: 500px;background: url(&quot;assets/img/mc.jpg&quot;) center / cover;">
-        <h1 class="display-2 d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center" style="height: 500px;font-family: 'Bungee Shade', cursive;">Meghraj<br>Goswami</h1>
+        <h1 class="display-4 d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center" data-aos="zoom-out" data-aos-duration="850" data-aos-delay="250" style="height: 500px;font-family: 'Bungee Shade', cursive;">Meghraj<br>Goswami</h1>
     </div>
     <div class="highlight-phone">
-        <div class="container">
+        <div class="container d-md-flex justify-content-md-center align-items-md-center" data-aos="fade-up">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 col-lg-8">
                     <div class="intro">
-                        <h2>Who am I?</h2>
-                        <p>I'm a 15 year old student from New Delhi, India. I like to code, play video games, read books and play my <a href="https://wikipedia.org/wiki/Sarod">Sarod</a>.</p><a id="hov_btn_1" class="btn btn-primary" role="button" href="https://github.com/megz15" target="_blank">GitHub</a></div>
+                        <h2 data-aos="fade-down-left">Who am I?</h2>
+                        <p data-aos="fade-up">I'm a 15 year old student from New Delhi, India.<br><br>I like to code, play video games, read books and play my&nbsp;<a href="https://wikipedia.org/wiki/Sarod">Sarod</a>.<br><br></p>
+                        <div class="row">
+                            <div class="col" data-aos="zoom-in"><a id="hov_btn_1" class="btn btn-primary" role="button" href="https://github.com/megz15" target="_blank">GitHub</a></div>
+                            <div class="col" data-aos="zoom-in"><a id="hov_btn_2" class="btn btn-primary" role="button" href="https://n.to/user/4103370-" target="_blank">Nu11ed</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="d-none d-md-block phone-mockup"><img class="device" src="assets/img/humaaans.png"></div>
+                <div class="col-sm-4 col-lg-3" data-bs-hover-animate="bounce">
+                    <div class="d-none d-md-block"><img class="device" src="assets/img/humaaans.png" height="315"/></div>
                 </div>
             </div>
         </div>
+    </div>
+    <div data-bs-parallax-bg="true" style="height: 500px;background: url(&quot;assets/img/imageedit_1_7927102629.png&quot;) center / cover;filter: blur(0px);">
+        <h4 class="display-4 text-center" data-aos="zoom-out" data-aos-duration="700" data-aos-once="true" style="color: rgb(198,167,5);font-family: Aldrich, sans-serif;padding-top: 30px;padding-bottom: 10px;">Coding Service<span class="flash animated infinite">_</span></h4>
+        <p class="text-center d-sm-flex justify-content-sm-center" data-aos="slide-up" style="color: rgb(47,234,0);font-size: 20px;height: 60px;margin-bottom: 35px;"><strong>I do python projects, including but not limited to discord / scraping / general bots, homework projects and checkers.</strong><br><br><br></p>
+        <p class="text-center d-sm-flex justify-content-sm-center align-items-sm-start" data-aos="slide-up"
+            style="color: rgb(47,234,0);font-size: 20px;height: 70px;margin-bottom: 35px;"><br><strong>I have done quite a few projects (for my portfolio please visit my nto profile) and am ready to take up new challenges</strong><br><br><br></p>
+        <p class="text-center d-sm-flex justify-content-sm-center align-items-sm-start" data-aos="slide-up"
+            style="color: rgb(47,234,0);font-size: 20px;height: 60px;"><br><strong>Contact me on Discord at _megz#1304 or leave me a DM on n.to if you think of something</strong><br><br></p>
     </div>
     <div class="features-boxed">
         <div class="container">
@@ -84,13 +100,7 @@
             </div>
         </div>
     </div>
-    <div class="map-clean" style="background: rgb(238,244,247);">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Location </h2>
-            </div>
-        </div><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDfAuOtn0oBTJLwO9oIropqT4cvhoBhPOk&amp;q=Dwarka%2C+New+Delhi&amp;zoom=10" width="100%" height="450"></iframe></div>
-    <div role="tablist" id="accordion-1">
+    <div class="text-monospace text-capitalize text-center" role="tablist" id="accordion-1">
         <div class="card">
             <div class="card-header" role="tab">
                 <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1">What is this website?</a></h5>
@@ -127,17 +137,18 @@
             <div class="social"><a href="https://github.com/megz15" target="_blank"><i class="fab fa-github"></i></a><a href="https://www.youtube.com/channel/UC3EhhMtPZXYXogzSzNzdsNQ" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://open.spotify.com/user/u08gpeiemz0rlji5fsf0xd432"
                     target="_blank"><i class="fab fa-spotify"></i></a><a href="https://www.reddit.com/user/meghgoswami835" target="_blank"><i class="fab fa-reddit"></i></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="projects.html">Services</a></li>
                 <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="https://j.mp/megzlol">Terms</a></li>
+                <li class="list-inline-item"><a href="https://j.mp/megzlol">Privacy Policy</a></li>
             </ul>
             <p class="copyright">Copyright © 2020<br>This site is protected by 0.5 brain cells<br><a href="https://j.mp/megzlol">Privacy Policy and ToS apply</a><br>All Rights Reversed</p>
         </footer>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
 
