@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const scoreDisplay = document.querySelector("#score");
   const squares = [];
   const candyColours = [
-    "url(images/red.png)",
-    "url(images/yellow.png)",
-    "url(images/orange.png)",
-    "url(images/purple.png)",
-    "url(images/green.png)",
-    "url(images/blue.png)",
+    "url(candy/images/red.png)",
+    "url(candy/images/yellow.png)",
+    "url(candy/images/orange.png)",
+    "url(candy/images/purple.png)",
+    "url(candy/images/green.png)",
+    "url(candy/images/blue.png)",
   ];
   let score = 0;
 
